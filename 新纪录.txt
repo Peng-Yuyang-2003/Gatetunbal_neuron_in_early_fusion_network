@@ -1,0 +1,24 @@
+<frozen importlib._bootstrap>:228: RuntimeWarning: scipy._lib.messagestream.MessageStream size changed, may indicate binary incompatibility. Expected 56 from C header, got 64 from PyObject
+x=2;mx=4.25;batch_size=1000;neuron number=210
+D:\anaconda\lib\site-packages\torch\nn\_reduction.py:42: UserWarning: size_average and reduce args will be deprecated, please use reduction='mean' instead.
+  warnings.warn(warning.format(ret))
+Train Epoch: 1 [0/120000 (0%)] Loss: 3.143574 Accuracy: 9.15 %
+Train Epoch: 11 [20000/120000 (17%)] Loss: 1.293495 Accuracy: 55.50 %
+Train Epoch: 21 [40000/120000 (33%)] Loss: 0.883872 Accuracy: 73.45 %
+Train Epoch: 31 [60000/120000 (50%)] Loss: 0.355031 Accuracy: 89.50 %
+Train Epoch: 41 [80000/120000 (67%)] Loss: 0.295154 Accuracy: 91.10 %
+Train Epoch: 51 [100000/120000 (83%)] Loss: 0.251715 Accuracy: 93.65 %
+Train Epoch: 61 [0/120000 (0%)] Loss: 0.228839 Accuracy: 93.45 %
+Train Epoch: 81 [40000/120000 (33%)] Loss: 0.211303 Accuracy: 94.55 %
+Train Epoch: 91 [60000/120000 (50%)] Loss: 0.218975 Accuracy: 94.35 %
+Train Epoch: 101 [80000/120000 (67%)] Loss: 0.216777 Accuracy: 93.95 %
+Test set: Accuracy: 9042/10000 (90.42%)
+Test set: Accuracy: 9438/10000 (94.38%)
+PS E:\宇阳天下的文件夹\Desktop\神经元\brain2_learning> python -u "e:\宇阳天下的文件夹\Desktop\神经元\brain2_learning\test_quantize.py"
+-0.0797748789191246
+-0.17611731588840485
+PS E:\宇阳天下的文件夹\Desktop\神经元\brain2_learning> python -u "e:\宇阳天下的文件夹\Desktop\神经元\brain2_learning\I17-SNN-PengYuyang copy.py"
+<frozen importlib._bootstrap>:228: RuntimeWarning: scipy._lib.messagestream.MessageStream size changed, may indicate binary incompatibility. Expected 56 from C header, got 64 from PyObject
+x=2;mx=4.25;batch_size=1000
+Test set: Accuracy: 8961/10000 (89.61%)
+Test set: Accuracy: 9176/10000 (91.76%)
